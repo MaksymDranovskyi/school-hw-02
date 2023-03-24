@@ -1,0 +1,62 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2196F3;
+    border-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover,
+button:focus {
+    background-color: #188ce8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: #2196F3;
+}
+
+p {
+    font-weight: 700;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.image__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.list__box{
+    display: flex;
+}
+
+.pc__list{
+    list-style: none;
+}
+
+.pc__list-item{
+    font-weight: 1000;
+}
+
+.pc__list-photo{
+    display: flex;
+    list-style: none;
+}
